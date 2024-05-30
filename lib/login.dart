@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:language_translator_app/cover.dart';
 
 class MyLogin extends StatefulWidget {
   const MyLogin({super.key});
@@ -142,7 +143,9 @@ class _MyLoginState extends State<MyLogin> {
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: ElevatedButton(onPressed: () {}, child: const Text('Sign In')),
+                        child: ElevatedButton(onPressed: () =>  Navigator.push(context,MaterialPageRoute(builder: (context) => const Cover(),)),
+
+                        child: const Text('Sign In')),
                       )
                     ],
                   ),

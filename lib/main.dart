@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:language_translator_app/login.dart';
-import 'package:language_translator_app/signup.dart';
 
 void main() {
   runApp(const MyApp());
